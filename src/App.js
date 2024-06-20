@@ -39,7 +39,7 @@ function App() {
   };
 
 const toggleMode = () => {
-  // removeBodyClasses();
+  removeBodyClasses();
   // document.body.classList.add('bg-'+cls);
     if(mode === 'light'){
       setMode('dark');

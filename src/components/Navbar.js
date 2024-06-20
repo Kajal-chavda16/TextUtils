@@ -35,10 +35,10 @@ export default function Navbar(props) {
             </li>
           </ul>
          <div className="d-flex">
-            <div className="bg-primary rounded mx-2" onClick={() => {props.changeColor('primary')}} style={{height : "30px" , width : "30px" , cursor : "pointer"}}></div>
-            <div className="bg-danger rounded mx-2" onClick={() => {props.changeColor('danger')}} style={{height : "30px" , width : "30px" , cursor : "pointer"}}></div>
-            <div className="bg-success rounded mx-2" onClick={() => {props.changeColor('success')}} style={{height : "30px" , width : "30px" , cursor : "pointer"}}></div>
-            <div className="bg-warning rounded mx-2" onClick={() => {props.changeColor('warning')}} style={{height : "30px" , width : "30px" , cursor : "pointer"}}></div>
+            <div className="bg-primary rounded mx-2" onClick={() => {props.changeColor('primary')}} style={{height : "20px" , width : "20px" , cursor : "pointer"}}></div>
+            <div className="bg-danger rounded mx-2" onClick={() => {props.changeColor('danger')}} style={{height : "20px" , width : "20px" , cursor : "pointer"}}></div>
+            <div className="bg-success rounded mx-2" onClick={() => {props.changeColor('success')}} style={{height : "20px" , width : "20px" , cursor : "pointer"}}></div>
+            <div className="bg-warning rounded mx-2" onClick={() => {props.changeColor('warning')}} style={{height : "20px" , width : "20px" , cursor : "pointer"}}></div>
             {/* <div className="bg-light rounded mx-2" onClick={() => {props.toggleMode('light')}} style={{height : "30px" , width : "30px" , cursor : "pointer"}}></div>
             <div className="bg-dark rounded mx-2" onClick={() => {props.toggleMode('dark')}} style={{height : "30px" , width : "30px" , cursor : "pointer"}}></div> */}
          </div>
